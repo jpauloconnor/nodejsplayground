@@ -1,3 +1,11 @@
+//First set up a new build system.
+// Go to Tools -> Build System -> New Build System --> Add the code below
+/*
+{
+	"cmd": ["node", "$file"]
+}
+*/
+
 //Node uses the same object literal
 
 console.log("Hello World");
@@ -24,4 +32,5 @@ var cool = function(){
 cool();
 
 //Function inside of a function
+//This will finish in 5seconds
 setTimeout(cool(), 5000);
