@@ -5,9 +5,18 @@
 var movies = require('./5-node-modules');
 movies.avatar();
 
+
+
 //Coming in from the other file
 var shows = require('./6-node-moduleexports')
 shows.printGoodShow();
 console.log(shows);
+
+
+require('./7-node-sharedmod-paul.js');
+require('./7-node-sharedmod-joey.js');
+
+
+
 
 

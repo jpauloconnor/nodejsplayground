@@ -10,6 +10,15 @@ function user(){
 	}
 }
 
+function enemy(name, age, rank){
+	this.name = name;
+	this.age = age;
+	this.rank = rank;
+}
+
+var enemyGuy = new enemy("John", 25, 1);
+console.log(enemyGuy);
+
 var paulie = new user();
 var joey = new user();
 

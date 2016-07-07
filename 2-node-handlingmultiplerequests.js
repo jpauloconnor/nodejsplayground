@@ -15,7 +15,7 @@ function placeAnOrder(orderNumber){
 	cookAndDeliverFood(function(){
 		console.log("Delivered food order " + orderNumber);
 	});
-}--
+}
 
 
 //Hey chef, call me back when the eggs are ready.
