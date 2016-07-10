@@ -35,8 +35,8 @@ var cool = function(){
 	console.log("You are cool");
 }
 
-cool();
+//cool();
 
 //Function inside of a function
 //This will finish in 5seconds
-setTimeout(cool(), 5000);
+//setTimeout(cool(), 5000);
