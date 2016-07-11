@@ -3,19 +3,19 @@
 //DON"T INCLUDE THE .js extension below
 //You do need the path a lot of times -----> ./
 //Browser can't access file system
-var movies = require('./5-node-modules');
+var movies = require('./5.modules');
 movies.avatar();
 
 
 
 //Coming in from the other file
-var shows = require('./6-node-moduleexports')
+var shows = require('./6.module_exports')
 shows.printGoodShow();
 console.log(shows);
 
 
-require('./7-node-sharedmod-paul.js');
-require('./7-node-sharedmod-joey.js');
+require('./7.sharedmod_paul.js');
+require('./7.sharedmod_joey.js');
 
 
 //Notice this doesn't have the path

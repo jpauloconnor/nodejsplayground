@@ -1,0 +1,73 @@
+//Node is everywhere
+
+//Vibrant community
+//Humongous contributions
+//community driven - 60,000 packages on npm
+//When you install node, you also install package manager
+
+//You can easily contribute to it at some point.
+
+//Sweet spots
+	//Real time high concurrency
+	//Database reads
+	//web services - 3,4,5 data sources
+	//Not locking up application processes
+	//service multiple http requests
+	//backend for mobile clients
+	//uniform interface for mobile/JSON data
+	//data serialization is fast and easy
+
+
+//v* Javascript engine/Chrome browser
+//i/o event driven 
+//asynchronously happening
+//while http request is happening, node can do other things
+//APIs speak streams - use core API libraries
+
+//Streams adventure
+	//interactive tutorial on cmd line
+npm install -g streams-adventure or stream adventure
+
+//Native extensions - C based programs
+
+
+
+//NODE IS NOT
+it is not a framework
+	-use express
+a new language - it's in JS
+
+
+
+INTERACTIVE MODE
+quick tests
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
