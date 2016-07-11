@@ -30,13 +30,13 @@ console.log("Hello " + name);
 //CMD - 1.bascis.js paul
 
 
+//HELLO WORLD
 //This is code that will be on a server.
 //When you create a web site, people are going to try to connect to 
 //that server, and the server
 //is responsible for looking at the request and sending some files. 
 
-
-//Incredibly easy to
+//Incredibly easy to do.
 
 //Built in variable to create a server
 //This is now listening for traffic.
@@ -47,7 +47,6 @@ console.log("Hello " + name);
 
 var http = require('http');
 
-
 function onRequest(request, response){
 	console.log("Our user made a request" + request.URL); //log something out
 	response.writeHead(200, {"Context-Type": "text/plain"}); //set up response and send text
@@ -57,7 +56,6 @@ function onRequest(request, response){
 
 http.createServer(onRequest).listen(8888);
 console.log("Server is now running");
-
 
 
 //Node uses the same object literal notation as JS
@@ -98,3 +96,15 @@ setTimeout(function () {
 var end = Date.now() + 5000
 while (Date.now() < end) ;
 console.log('Event loop. Which will come first?')
+
+
+
+
+//PACKAGE INSTALL - NODEMON
+//STart and stop server after save.
+
+//npm install -g nodemon
+
+//node app.js --debug
+
+//node-inspector

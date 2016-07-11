@@ -17,6 +17,12 @@ function placeAnOrder(orderNumber){
 	});
 }
 
+function placeDessertOrder(orderNumber){
+	console.log("Second order" + orderNumber);
+	makeDessert(function(){
+		console.log("Delivered dessert order " + orderNumber);
+	});
+}
 
 //Hey chef, call me back when the eggs are ready.
 //A bit of code that will run when the time runs out
@@ -25,8 +31,18 @@ function cookAndDeliverFood(callback){
 	setTimeout(callback, 5000);
 }
 
+function makeDessert(callback){
+	//set a schedule
+	setTimeout(callback, 8000);
+}
+
+
+
 placeAnOrder(1);
 placeAnOrder(2);
 placeAnOrder(3);
 placeAnOrder(4);
 placeAnOrder(5);
+
+placeDessertOrder(1);
+placeDessertOrder(2);
